@@ -5,3 +5,6 @@
 
 ### Activate virtualenv
 `source venv/bin/activate`
+
+### Create requirements file
+`pip freeze > requirements.txt`
