@@ -1,0 +1,7 @@
+# Module 1: Previous Concepts
+
+### Install virtualenv
+`virtualenv -p path/to/python3 venv`
+
+### Activate virtualenv
+`source venv/bin/activate`
