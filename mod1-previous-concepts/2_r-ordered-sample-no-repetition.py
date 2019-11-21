@@ -1,0 +1,10 @@
+# Let me know the formula!
+print("The r-ordered-sample without repetition are named PERMUTATIONS\n")
+print("You know, the formula for permutation calculation is the following:\n")
+print("P(n) = V(n, n) = n!\n")
+print("Where n is the number of ELEMENTS in the SET, and R is the samples taken in the function\n")
+print("///////////////////////////////\n")
+print("///////////////////////////////\n")
+print("///////////////////////////////\n")
+print("///////////////////////////////\n")
+print("NOW.... LET US CALCULATE!!!\n")
