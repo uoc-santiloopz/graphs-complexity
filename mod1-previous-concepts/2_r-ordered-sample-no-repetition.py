@@ -8,3 +8,15 @@ print("///////////////////////////////\n")
 print("///////////////////////////////\n")
 print("///////////////////////////////\n")
 print("NOW.... LET US CALCULATE!!!\n")
+
+# CALCULATE!
+n = int(input("How many ELEMENTS does the SET have?\n"))
+factorial = 1
+
+print("So... we want to calculate P(%(n)s) = %(n)s!\n" % { "n": n })
+
+if n > 1:
+   for i in range(1, n + 1):
+       factorial = factorial * i
+
+print("The total number of permutations is ", factorial)
