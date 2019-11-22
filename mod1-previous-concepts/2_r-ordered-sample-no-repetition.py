@@ -11,12 +11,22 @@ print("NOW.... LET US CALCULATE!!!\n")
 
 # CALCULATE!
 n = int(input("How many ELEMENTS does the SET have?\n"))
-factorial = 1
+s = int(input("How many SAMPLES do we take?\n"))
+numerator = 1
+denominator = 1
+diff = n - s
+res = 0
 
-print("So... we want to calculate P(%(n)s) = %(n)s!\n" % { "n": n })
+print("So... we want to calculate P(%(n)s) = %(n)s!/(%(n)s - %(s)s)!\n" % { "n": n, "s": s })
 
 if n > 1:
    for i in range(1, n + 1):
-       factorial = factorial * i
+       numerator = numerator * i
 
-print("The total number of permutations is ", factorial)
+if diff > 1:
+   for i in range(1, diff + 1):
+       denominator = denominator * i
+
+res = numerator/denominator
+
+print("The total number of permutations is ", int(res))
