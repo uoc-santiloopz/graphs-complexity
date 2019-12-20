@@ -11,5 +11,11 @@ seq = input("What is the sequence?\n").split()
 mapped = list(map(to_int, seq))
 mapped.sort()
 
+maxDegree = max(mapped)
+degLength = len(mapped)
 
-print("Final sequence", mapped)
+if maxDegree <= (degLength - 1):
+    for i in range(1, degLength):
+        print(i)
+else:
+    print("The sequence is not graphical\n")
