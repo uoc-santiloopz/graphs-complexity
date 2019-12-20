@@ -20,12 +20,12 @@ res = 0
 print("So... we want to calculate P(%(n)s) = %(n)s!/(%(n)s - %(s)s)!\n" % { "n": n, "s": s })
 
 if n > 1:
-   for i in range(1, n + 1):
-       numerator = numerator * i
+    for i in range(1, n + 1):
+        numerator = numerator * i
 
 if diff > 1:
-   for i in range(1, diff + 1):
-       denominator = denominator * i
+    for i in range(1, diff + 1):
+        denominator = denominator * i
 
 res = numerator/denominator
 
