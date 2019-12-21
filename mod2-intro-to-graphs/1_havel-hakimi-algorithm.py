@@ -1,4 +1,4 @@
-from utils import to_int
+from shared.utils import to_int
 
 print("You are about to witness the power of the Havel-Hakimi algorithm...\n")
 print("Enter your sequence of numbers, separated by spaces\n")
