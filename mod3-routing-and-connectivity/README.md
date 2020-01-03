@@ -1,4 +1,4 @@
-# Module 2: Intro to graphs
+# Module 1: Previous Concepts
 
 ### Install virtualenv
 `virtualenv -p path/to/python3 venv`
